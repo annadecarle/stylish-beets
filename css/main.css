@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,3 +11,8 @@ html {
 /* font-family: 'PT Sans', sans-serif; */
 /* font-family: 'PT Sans', sans-serif;
 /* font-family: 'PT Serif', serif; */
+
+figure {
+  padding: 0;
+  margin: 0;
+}
