@@ -3,7 +3,6 @@ html {
   font-family: "PT Serif", serif;
   line-height: 1.5;
   background-color: #c9b5ab;
-  color: #222;
 }
 
 *, *::before, *::after {
@@ -83,4 +82,10 @@ blockquote {
 
 blockquote cite {
   color: #222;
+  font-size: .8rem;
+}
+
+aside .tags {
+  list-style: circle;
+  font-size: .8rem;
 }
