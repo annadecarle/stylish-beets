@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
   background-color: #c9b5ab;
+  color: #222;
 }
 
 *, *::before, *::after {
@@ -14,9 +15,8 @@ html {
 /* font-family: 'PT Serif', serif; */
 
 figcaption {
-  font-size: 0.8rem;
   font-style: italic;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   text-align: center;
 }
 
@@ -25,8 +25,11 @@ strong {
   font-weight: normal;
 }
 
-p .caption {
-  text-align: center;
+.timeline {
+  text-align: left;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 img {
@@ -37,49 +40,40 @@ h1 {
   color: #3f1622;
   margin: 0;
   text-align: left;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
-}
-
-.ol {
-  text-decoration: none;
-  list-style-type: none;
-  padding: 0;
-}
-
-.ol li {
-  text-decoration: none;
-  font-family: 'PT Sans', sans-serif;
-  color: #8f2440;
 }
 
 .common {
   list-style-type: lower-greek;
   text-decoration: none;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   color: #222;
 }
 
-ul li {
-  text-size: 100%;
-}
-
-nav a:hover {
+a:hover {
   color: #3f1622;
+  text-decoration: none;
 }
 
-footer a{
+a {
   color: #8f2440;
+  text-decoration: none;
 }
 
-footer a:hover {
-  color: #3f1622;
+.nutritional dt {
+  font-weight: bold;
 }
 
-dl dt {
-  font-style: bold;
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote cite {
+  color: #222;
 }
