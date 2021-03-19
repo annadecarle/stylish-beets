@@ -1,7 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-sans-serif;
+  font-family: font-family: 'PT Serif', serif;
   line-height: 1.5;
+  background-color: #c9b5ab;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -15,13 +18,45 @@ html {
 figure {
   padding: 0;
   margin: 0;
+
 }
 
 header {
-  background-color: #c9b5ab;
   color: #3f1622;
   margin: 0;
   text-align: left;
-background-size: cover;
-background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  font-family: font-family: 'PT Sans', sans-serif;
+  color: #8f2440;
+}
+
+.ol {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ol li {
+  text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
+  color: #8f2440;
+}
+
+.common {
+  list-style-type: lower-greek;
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  color: #222;
+}
+
+ul {
+  text-size: 0.125rem;
 }
