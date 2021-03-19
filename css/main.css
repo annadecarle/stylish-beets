@@ -65,6 +65,13 @@ a {
   text-decoration: none;
 }
 
+nav .links {
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
 .nutritional dt {
   font-weight: bold;
 }
